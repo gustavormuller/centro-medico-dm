@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --verde-claro: #77a62a;
+    --verde-escuro: #07330b;
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #555555;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    padding: 0 12%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 190px;
+}
+
+.paths a {
+    padding: 0 15px;
+    font-size: 20px;
+    color: var(--cinza);
+    font-weight: 400;
+}
+
+.paths a:hover {
+    color: var(--verde-claro);
+}
+
+.agendar {
+    font-size: 20px;
+}
+
+.agendar a {
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.agendar a:hover {
+    color: var(--verde-claro);
+}
+
+.agendar i {
+    padding: 0 5px;
+    color: var(--verde-claro);
+}
+
+#inicio {
+    background-color: var(--verde-claro);
+}
+
+#inicio img {
+    width: 100%;
+}

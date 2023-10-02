@@ -73,6 +73,26 @@ section {
     padding-bottom: 5rem;
 }
 
-.especialidade img {
-    color: var(--verde-claro);
+#especialidades {
+    padding: 0 12%;
 }
+
+.especialidades-container h1 {
+    color: var(--verde-escuro);
+}
+
+.especialidades-icones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.especialidade {
+    width: 150px;
+}
+
+.especialidade img {
+    width: 100%;
+}
+

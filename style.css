@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
@@ -19,6 +20,8 @@
 
 header {
     width: 100%;
+    z-index: 2;
+    background: var(--branco);
 }
 
 nav {
@@ -32,7 +35,7 @@ nav {
 }
 
 .logo img {
-    width: 190px;
+    width: 160px;
 }
 
 .paths a {
@@ -40,6 +43,7 @@ nav {
     font-size: 20px;
     color: var(--cinza);
     font-weight: 400;
+    text-decoration: none;
 }
 
 .paths a:hover {
@@ -53,6 +57,7 @@ nav {
 .agendar a {
     color: var(--cinza);
     font-weight: 500;
+    text-decoration: none;
 }
 
 .agendar a:hover {
@@ -64,10 +69,16 @@ nav {
     color: var(--verde-claro);
 }
 
-#inicio {
-    background-color: var(--verde-claro);
+section {
+    padding-bottom: 5rem;
 }
 
 #inicio img {
     width: 100%;
+}
+
+.banner {
+    top: 0;
+    position: relative;
+    z-index: 1;
 }

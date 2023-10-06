@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cardiologia: [
             {
                 nome: "Dr. Ulysses da Costa Paiva Neto",
-                foto: "/images/random.png"
+                foto: "/images/ulyssesdacostapaiva.png"
             }
         ],
         cirurgiaGeral: [
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         dermatologia: [
             {
                 nome: "Dra. Laís Maia Pinheiro",
-                foto: "/images/random.png"
+                foto: "/images/laismaia.png"
             }
         ],
 
@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             medicosBackground.style.display = "block";
             document.body.style.overflowY = "hidden";
             medicosContainer.style.display = "flex";
+            document.querySelector('header').style.position = "inherit";
 
 
             if (especialidadeData) {
@@ -70,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
             medicosContainer.style.display = "none";
             medicosBackground.style.display = "none";
             document.body.style.overflowY = "visible";
+            document.querySelector('header').style.position = "fixed";
         }
     });
 });

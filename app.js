@@ -7,137 +7,137 @@ document.addEventListener("DOMContentLoaded", function () {
         angiologia: [
             {
                 nome: "Dr. Fabrício Rossi",
-                foto: "/images/random.png",
+                foto: "/images/dr_fabricio_rossi_angiologo.png",
             },
         ],
         cardiologia: [
             {
-                nome: "Dr. Ulysses da Costa Paiva Neto",
+                nome: "Dr. Ulisses da Costa Paiva Neto",
                 foto: "/images/ulyssesdacostapaiva.png"
             }
         ],
         cirurgiaGeral: [
             {
                 nome: "Dr. Eduardo Alexandre Wernersbach Deps",
-                foto: "/images/random.png"
+                foto: "/images/dr_eduardo_cirurgiaogeral.png"
             },
             {
                 nome: "Dr. Silvio Kuster",
-                foto: "/images/random.png"
+                foto: "/images/dr_silvio_kuster_clinicogeral.png"
             }
         ],
         dermatologia: [
             {
                 nome: "Dra. Laís Maia Pinheiro",
-                foto: "/images/laismaia.png"
+                foto: "/images/dra_lais_maia_dermato_1.webp"
             }
         ],
         endocrinologia: [
             {
                 nome: "Dr. José Maria Cruz Machado",
-                foto: "/images/laismaia.png"
+                foto: "/images/dr_jose_maria_endocrino.jpg"
             }
         ],
         geriatria: [
             {
                 nome: "Dra. Sarah Francisco",
-                foto: "/images/laismaia.png"
+                foto: "/images/dra_sarah_francisco_geriatra.png"
             }
         ],
         ginecologia: [
             {
                 nome: "Dra. Nicole Kuster Porpino",
-                foto: "/images/laismaia.png"
+                foto: "/images/dra_nicole_kuster.webp"
             },
             {
                 nome: "Dr. Alvaro Lopes Vereno Filho",
-                foto: "/images/laismaia.png"
+                foto: "/images/dr_alvaro_lopes_gineco.png"
             }
         ],
         neurologia: [
             {
                 nome: "Dra. Alba Valéria",
-                foto: "/images/laismaia.png"
+                foto: "/images/dra_albavaleria_neuro.png"
             },
             {
                 nome: "Dr. Paulo de Paiva",
-                foto: "/images/laismaia.png"
+                foto: "/images/dr_paulo_paiva_neurocirurgiao.png"
             }
         ],
         nutricao: [
             {
                 nome: "Marilza Dias",
-                foto: "/images/laismaia.png"
+                foto: "/images/nutricionista_marilza.png"
             }
         ],
         oftalmologia: [
             {
-                nome: "Dr. Ricardo Cerqueira Lima",
-                foto: "/images/laismaia.png"
+                nome: "Dr. Ricardo Cerqueira Lima Sturzeneker",
+                foto: "/images/dr_ricardo_sturzeneker_oftalmologista2.png"
             }
         ],
         ortopedia: [
             {
                 nome: "Dr. Sérgio Brickwedde",
-                foto: "/images/laismaia.png"
+                foto: "/images/ortopedia.webp"
             }
         ],
         otorrino: [
             {
-                nome: "Dra. Karina Brandão Lutz",
-                foto: "/images/laismaia.png"
+                nome: "Dra. Karina Brandão Lunz",
+                foto: "/images/dra_karina_lunz_otorrino.png"
             }
         ],
         pediatria: [
             {
                 nome: "Dra. Kátia Faria Alves",
-                foto: "/images/laismaia.png"
+                foto: "/images/dra_katia_faria_alves.png"
             },
             {
                 nome: "Dra. Magda Lúcia Machado Pimentel",
-                foto: "/images/laismaia.png"
+                foto: "/images/dra_magda_pediatra.png"
             }
         ],
         pneumologia: [
             {
                 nome: "Dra. Amanda Schwambach Velten",
-                foto: "/images/laismaia.png"
+                foto: "/images/dra_amanda_velten.webp"
             }
         ],
         psicologia: [
             {
                 nome: "Fernanda de Biase",
-                foto: "/images/laismaia.png"
+                foto: "/images/fernanda_psicologa.png"
             },
             {
                 nome: "Solange Lucena Mendes",
-                foto: "/images/laismaia.png"
+                foto: "/images/lucena_mendes_psicologa.png"
             },
             {
                 nome: "Adriania Rodrigues",
-                foto: "/images/laismaia.png"
+                foto: "/images/adriania_psicologa.png"
             }
         ],
         psiquiatria: [
             {
                 nome: "Dr. Ricardo Herkenhoff Araujo",
-                foto: "/images/laismaia.png"
+                foto: "/images/dr_ricardo_herkenhoff_psiquiatra.jpg"
             }
         ],
         radiologia: [
             {
                 nome: "Dr. Plinio Zanello",
-                foto: "/images/laismaia.png"
+                foto: "/images/dr_plinio_zanello_radiologista.png"
             },
             {
                 nome: "Dr. Rubens Littig",
-                foto: "/images/laismaia.png"
+                foto: "/images/rubens_littig_ultrassonografia.png"
             }
         ],
         urologia: [
             {
                 nome: "Dr. Leandro Correa Leal",
-                foto: "/images/laismaia.png"
+                foto: "/images/dr_leandro_leal.webp"
             }
         ]
     };

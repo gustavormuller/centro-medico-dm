@@ -214,7 +214,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 15px;
+    padding: 50px 0;
 }
 
 .historia-img {
@@ -236,6 +236,7 @@ section {
 
 .historia-texto p {
     margin: 0;
+    margin-bottom: 30px;
 }
 
 .historia-texto h2 {
@@ -245,6 +246,19 @@ section {
 .historia-texto h2:nth-child(2) {
     padding-bottom: 7px;
     border-bottom: 1px solid var(--verde-escuro);
+}
+
+.historia-texto a {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--verde-escuro);
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.historia-texto a:hover {
+    background-color: var(--verde-claro);
+    transition: 0.3s ease-in-out;
 }
 
 #convenios {

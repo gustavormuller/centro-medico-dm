@@ -151,7 +151,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     background: var(--branco);
-    padding: 30px;
+    padding: 15px 20px;
     border-radius: 25px;
 }
 
@@ -162,6 +162,8 @@ section {
 
 .medicos-head h2 {
     color: #333333;
+    font-size: 28px;
+    margin-bottom: 0;
 }
 
 .medicos-head i {
@@ -183,13 +185,13 @@ section {
 }
 
 .medico h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: #333333;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .medico img {
-    max-width: 300px;
+    height: 250px;
     border-radius: 25px;
 }
 
@@ -258,7 +260,7 @@ section {
 
 .historia-texto a:hover {
     background-color: var(--verde-claro);
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
 }
 
 #convenios {

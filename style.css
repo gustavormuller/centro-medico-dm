@@ -119,6 +119,7 @@ section {
 .especialidade {
     width: 135px;
     text-align: center;
+    cursor: pointer;
 }
 
 .especialidade img {
@@ -126,7 +127,7 @@ section {
 }
 
 .especialidade span {
-    font-size: 21px;
+    font-size: 20px;
     color: var(--verde-escuro);
     font-weight: 500;
 }
@@ -265,6 +266,8 @@ section {
 
 #convenios {
     padding: 0 12%;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
 }
 
 .convenios-title h1 {
@@ -274,3 +277,25 @@ section {
     padding-bottom: 7px;
 }
 
+#contato {
+    padding: 0 12%;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.contato-title h1 {
+    font-size: 42px;
+    color: var(--verde-escuro);
+    border-bottom: 2px solid var(--cinza);
+    padding-bottom: 7px;
+}
+
+.maps {
+    display: flex;
+    align-items: center;
+}
+
+.maps iframe {
+    border: 1px solid var(--verde-claro);
+    border-radius: 25px;
+}

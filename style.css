@@ -114,6 +114,7 @@ section {
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+    padding-bottom: 4rem;
 }
 
 .especialidade {
@@ -130,6 +131,25 @@ section {
     font-size: 20px;
     color: var(--verde-escuro);
     font-weight: 500;
+}
+
+.procedimentos-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.procedimentos-container ul {
+    padding-left: 0;
+}
+
+.procedimentos-container li {
+    font-size: 24px;
+    color: var(--verde-escuro);
+    font-weight: 400;
+    border-bottom: 1px solid var(--verde-claro);
+    padding-top: 12px;
 }
 
 .medicos-background {

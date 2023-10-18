@@ -310,6 +310,11 @@ section {
     padding-bottom: 7px;
 }
 
+.contato-wrap {
+    padding-top: 2rem;
+    display: flex;
+}
+
 .maps {
     display: flex;
     align-items: center;

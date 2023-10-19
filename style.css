@@ -12,7 +12,7 @@
 
 :root {
     --verde-claro: #77a62a;
-    --verde-escuro: #095410;
+    --verde-escuro: #07420d;
     --branco: #ffffff;
     --preto: #000000;
     --cinza: #555555;
@@ -78,7 +78,7 @@ nav {
 }
 
 section {
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 #inicio {
@@ -87,7 +87,8 @@ section {
 
 #especialidades {
     padding: 0 12%;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .especialidades-title {
@@ -101,6 +102,7 @@ section {
     font-size: 42px;
     border-bottom: 2px solid var(--cinza);
     padding-bottom: 7px;
+    font-weight: 500;
 }
 
 .especialidades-title span {
@@ -114,7 +116,7 @@ section {
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .especialidade {
@@ -133,6 +135,13 @@ section {
     font-weight: 500;
 }
 
+#procedimentos {
+    padding: 0 12%;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    background: #aaf3356e;
+}
+
 .procedimentos-container {
     display: flex;
     align-items: center;
@@ -142,6 +151,9 @@ section {
 
 .procedimentos-container ul {
     padding-left: 0;
+    background-color: var(--branco);
+    padding: 20px 50px 25px;
+    border-radius: 25px;
 }
 
 .procedimentos-container li {
@@ -300,7 +312,8 @@ section {
 #contato {
     padding: 0 12%;
     padding-bottom: 3rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    background: #aaf3356e;
 }
 
 .contato-title h1 {
@@ -311,13 +324,69 @@ section {
 }
 
 .contato-wrap {
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: flex;
+    justify-content: space-around;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    padding: 0 10px;
+    border-radius: 25px;
+    border: 1px solid var(--verde-claro);
+    width: 45%;
+}
+
+.contato-logo {
+    width: 350px;
+    padding-bottom: 2rem;
+}
+
+.contato-logo img {
+    width: 100%;
+}
+
+.info-items {
+    text-align: center;
+}
+
+.localizacao {
+    font-size: 20px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.localizacao i {
+    padding-right: 5px;
+    color: var(--verde-escuro);
+}
+
+.telefones {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.horario {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.info-socials i {
+    font-size: 30px;
+    color: var(--verde-escuro);
 }
 
 .maps {
     display: flex;
     align-items: center;
+    width: 45%;
 }
 
 .maps iframe {

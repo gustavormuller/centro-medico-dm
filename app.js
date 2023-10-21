@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const medicosInfo = document.getElementById("medicos-info");
     const medicosBackground = document.querySelector('.medicos-background');
     const medicosContainer = document.querySelector('.medicos');
+    const close = document.querySelector('.close');
     const medicosData = {
         alergiaImunologia: [
             {
@@ -225,4 +226,12 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector('#inicio').style.paddingTop = '84px';
         }
     });
+
+    close.addEventListener("click", () => {
+        medicosContainer.style.display = "none";
+        medicosBackground.style.display = "none";
+        document.body.style.overflowY = "visible";
+        document.querySelector('header').style.position = "fixed";
+        document.querySelector('#inicio').style.paddingTop = '84px';
+    })
 });

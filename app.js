@@ -4,6 +4,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const medicosBackground = document.querySelector('.medicos-background');
     const medicosContainer = document.querySelector('.medicos');
     const medicosData = {
+        alergiaImunologia: [
+            {
+                nome: "Dr. Silvio Rogério Kuster",
+                foto: "/images/dr_silvio_kuster_clinicogeral.png",
+            },
+        ],
+        anestesia: [
+            {
+                nome: "Dra. Luisa Medeiros de Araújo Bragato",
+                foto: "/images/random.png",
+            },
+        ],
         angiologia: [
             {
                 nome: "Dr. Fabrício Rossi",
@@ -22,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 foto: "/images/dr_eduardo_cirurgiaogeral.png"
             },
             {
-                nome: "Dr. Silvio Kuster",
+                nome: "Dr. Silvio Rogério Kuster",
                 foto: "/images/dr_silvio_kuster_clinicogeral.png"
             }
         ],
@@ -36,6 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 nome: "Dr. José Maria Cruz Machado",
                 foto: "/images/dr_jose_maria_endocrino.jpg"
+            }
+        ],
+        gastroenterologia: [
+            {
+                nome: "Dr. Eduardo Alexandre Wernersbach Deps",
+                foto: "/images/dr_eduardo_cirurgiaogeral.png"
             }
         ],
         geriatria: [
@@ -52,6 +70,18 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 nome: "Dr. Alvaro Lopes Vereno Filho",
                 foto: "/images/dr_alvaro_lopes_gineco.png"
+            }
+        ],
+        mastologia: [
+            {
+                nome: "Dr. Alvaro Lopes Vereno Filho",
+                foto: "/images/dr_alvaro_lopes_gineco.png"
+            }
+        ],
+        medicinaDoTrabalho: [
+            {
+                nome: "Dr. Silvio Rogério Kuster",
+                foto: "/images/dr_silvio_kuster_clinicogeral.png"
             }
         ],
         neurologia: [
@@ -74,6 +104,12 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 nome: "Dr. Ricardo Cerqueira Lima Sturzeneker",
                 foto: "/images/dr_ricardo_sturzeneker_oftalmologista2.png"
+            }
+        ],
+        oncologia: [
+            {
+                nome: "Dra. Mariana Almeida Saleme do Valle",
+                foto: "/images/random.png"
             }
         ],
         ortopedia: [
@@ -104,6 +140,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 foto: "/images/dra_amanda_velten.webp"
             }
         ],
+        proctologia: [
+            {
+                nome: "Dr. Eduardo Alexandre Wernersbach Deps",
+                foto: "/images/dr_eduardo_cirurgiaogeral.png"
+            }
+        ],
         psicologia: [
             {
                 nome: "Fernanda de Biase",
@@ -132,6 +174,12 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 nome: "Dr. Rubens Littig",
                 foto: "/images/rubens_littig_ultrassonografia.png"
+            }
+        ],
+        reumatologia: [
+            {
+                nome: "Dra. Gabriela Andrade Pena Cruz",
+                foto: "/images/dra_gabriela_reumatologista.png"
             }
         ],
         urologia: [

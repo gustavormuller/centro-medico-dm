@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 nome: "Dr. Silvio Rogério Kuster",
                 foto: "/images/dr_silvio_kuster_clinicogeral.png",
+                CRM: 124562,
+                REQ: 562315
             },
         ],
         anestesia: [
@@ -208,7 +210,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     const medicoElement = document.createElement("div");
                     medicoElement.className = "medico";
                     medicoElement.innerHTML = `
-                        <h3>${medico.nome}</h3>
+                        
+                        <div>
+                            <h3>${medico.nome}</h3>
+                            <span>CRM: ${medico.CRM}</span>
+                            <span>REQ: ${medico.REQ}</span>
+                        </div>
                         <img src="${medico.foto}" alt="${medico.nome}">
                     `;
                     medicosInfo.appendChild(medicoElement);

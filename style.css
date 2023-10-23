@@ -213,19 +213,34 @@ section {
 .especialidade-info {
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #aaf3356e;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 .medico {
-    background-color: #fff;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    padding: 20px;
+    border-right: 1px solid var(--preto);
+}
+
+.medico:last-child {
+    border-right: 0;
 }
 
 .medico h3 {
     font-size: 20px;
     color: #333333;
     padding-top: 5px;
+}
+
+.medico div {
+    display: flex;
+    flex-direction: column;
 }
 
 .medico img {

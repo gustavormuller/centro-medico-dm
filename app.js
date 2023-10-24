@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         anestesia: [
             {
-                nome: "Dra. Luisa Medeiros de Araújo Bragato",
-                foto: "/images/random.png",
+                nome: "Dra. Luisa Medeiros de Araújo Bragatto",
+                foto: "/images/anestesia.webp",
             },
         ],
         angiologia: [
@@ -111,8 +111,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         oncologia: [
             {
-                nome: "Dra. Mariana Almeida Saleme do Valle",
-                foto: "/images/random.png"
+                nome: "Dra. Mariana Saleme do Valle",
+                foto: "/images/dra_mariana_saleme.jpg"
             }
         ],
         ortopedia: [
@@ -151,17 +151,17 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         psicologia: [
             {
+                nome: "Adriania Rodrigues",
+                foto: "/images/adriania_psicologa.png"
+            },
+            {
                 nome: "Fernanda de Biase",
                 foto: "/images/fernanda_psicologa.png"
             },
             {
                 nome: "Solange Lucena Mendes",
                 foto: "/images/lucena_mendes_psicologa.png"
-            },
-            {
-                nome: "Adriania Rodrigues",
-                foto: "/images/adriania_psicologa.png"
-            }
+            }            
         ],
         psiquiatria: [
             {
@@ -213,8 +213,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         <img src="${medico.foto}" alt="${medico.nome}">
                         <div>
                             <h3>${medico.nome}</h3>
-                            <span>CRM: ${medico.CRM}</span>
-                            <span>REQ: ${medico.REQ}</span>
+                            <!-- <span>CRM: ${medico.CRM}</span> -->
+                            <!-- <span>REQ: ${medico.REQ}</span> -->
                         </div>                        
                     `;
                     medicosInfo.appendChild(medicoElement);

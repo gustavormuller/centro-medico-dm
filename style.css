@@ -36,7 +36,11 @@ nav {
     padding: 0 12%;
 }
 
-.container {
+.menu-dropdown {
+    display: none;
+}
+
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -449,4 +453,156 @@ section {
 .footer a {
     text-decoration: none;
     color: #9fe036;
+}
+
+@media only screen and (min-width: 1200px) {
+    nav {
+        padding: 0 5%;
+    }
+
+    .menu-dropdown {
+        display: none;
+    }
+
+    #especialidades, #procedimentos, #historia, #contato {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    nav {
+        padding: 0 2%;
+    }
+
+    #especialidades, #procedimentos, #historia, #contato {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .paths a {
+        padding: 0 5px;
+    }
+
+    .especialidade {
+        width: 120px;
+    }
+
+    .especialidade span {
+        font-size: 18px;
+    }
+
+    .procedimentos-container ul {
+        padding: 5px 10px 10px;
+        max-width: 45%;
+    }
+
+    .contato-wrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contato-info, .maps {
+        width: 720px;
+    }
+
+    .info-socials {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .menu-dropdown {
+        display: block;
+    }
+
+    .dropdown-button {
+        background-color: var(--branco);
+    }
+
+    .dropdown-button i {
+        font-size: 35px;
+        color: var(--verde-escuro);
+    }
+
+    .close-menu {
+        font-size: 20px;
+        color: var(--cinza);
+    }
+
+    .offcanvas-title {
+        color: var(--verde-escuro);
+    }
+
+    .paths-menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+    }
+
+    .paths-menu a {
+        text-decoration: none;
+        color: var(--cinza);
+        padding: 5px 15px;
+    }
+
+    .agendar-menu {
+        padding-top: 15px;
+        font-size: 24px;
+    }
+
+    .agendar-menu a {
+        text-decoration: none;
+        color: var(--cinza);
+    }
+
+    .agendar-menu i {
+        color: var(--verde-claro);
+        padding-right: 5px;
+    }
+
+    nav {
+        padding: 0 2%;
+    }
+
+    .paths, .agendar {
+        display: none;
+    }
+
+    #especialidades, #procedimentos, #historia, #contato {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .paths a {
+        padding: 0 5px;
+    }
+
+    .especialidade {
+        width: 120px;
+    }
+
+    .especialidade span {
+        font-size: 18px;
+    }
+
+    .procedimentos-container ul {
+        padding: 5px 10px 10px;
+        max-width: 45%;
+    }
+
+    .contato-wrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contato-info, .maps {
+        width: 720px;
+    }
+
+    .info-socials {
+        margin-bottom: 1rem;
+    }
 }

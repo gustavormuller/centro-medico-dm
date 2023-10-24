@@ -344,19 +344,6 @@ section {
     transition: 0.3s ease;
 }
 
-#convenios {
-    padding: 0 12%;
-    padding-bottom: 3rem;
-    padding-top: 1rem;
-}
-
-.convenios-title h1 {
-    font-size: 42px;
-    color: var(--verde-escuro);
-    border-bottom: 2px solid var(--cinza);
-    padding-bottom: 7px;
-}
-
 #contato {
     padding: 0 12%;
     padding-bottom: 3rem;
@@ -455,7 +442,7 @@ section {
     color: #9fe036;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1610px) {
     nav {
         padding: 0 5%;
     }
@@ -470,7 +457,7 @@ section {
     }
 }
 
-@media only screen and (min-width: 990px) {
+@media only screen and (max-width: 1200px) {
     nav {
         padding: 0 2%;
     }
@@ -484,12 +471,20 @@ section {
         padding: 0 5px;
     }
 
+    .especialidades-icones {
+        gap: 4rem;
+    }
+
     .especialidade {
         width: 120px;
     }
 
     .especialidade span {
         font-size: 18px;
+    }
+
+    .medico img {
+        height: 200px;
     }
 
     .procedimentos-container ul {
@@ -512,7 +507,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 990px) {
     .menu-dropdown {
         display: block;
     }
@@ -527,18 +522,18 @@ section {
     }
 
     .close-menu {
-        font-size: 20px;
+        font-size: 24px;
         color: var(--cinza);
     }
 
-    .offcanvas-title {
-        color: var(--verde-escuro);
+    #offcanvasResponsive {
+        background-color: #efffec;
     }
 
     .paths-menu {
         display: flex;
         flex-direction: column;
-        font-size: 24px;
+        font-size: 27px;
     }
 
     .paths-menu a {
@@ -547,14 +542,24 @@ section {
         padding: 5px 15px;
     }
 
+    .paths-menu a:hover {
+        color: var(--verde-claro);
+        transition: 0.3s ease;
+    }
+
     .agendar-menu {
-        padding-top: 15px;
-        font-size: 24px;
+        padding-top: 25px;
+        font-size: 27px;
     }
 
     .agendar-menu a {
         text-decoration: none;
         color: var(--cinza);
+    }
+
+    .agendar-menu a:hover {
+        color: var(--verde-claro);
+        transition: 0.3s ease;
     }
 
     .agendar-menu i {
@@ -579,6 +584,10 @@ section {
         padding: 0 5px;
     }
 
+    .especialidades-icones {
+        gap: 3rem;
+    }
+
     .especialidade {
         width: 120px;
     }
@@ -587,9 +596,29 @@ section {
         font-size: 18px;
     }
 
+    .especialidade-info {
+        gap: 1rem;
+    }
+
+    .medico {
+        padding: 15px;
+    }
+
+    .medico img {
+        height: 170px;
+    }
+
     .procedimentos-container ul {
         padding: 5px 10px 10px;
         max-width: 45%;
+    }
+
+    .historia-img {
+        width: 95%;
+    }
+
+    .historia-texto {
+        padding: 0 20px;
     }
 
     .contato-wrap {
@@ -599,7 +628,147 @@ section {
     }
 
     .contato-info, .maps {
-        width: 720px;
+        width: 95%;
+    }
+
+    .info-socials {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .menu-dropdown {
+        display: block;
+    }
+
+    .dropdown-button {
+        background-color: var(--branco);
+    }
+
+    .dropdown-button i {
+        font-size: 35px;
+        color: var(--verde-escuro);
+    }
+
+    .close-menu {
+        font-size: 24px;
+        color: var(--cinza);
+    }
+
+    #offcanvasResponsive {
+        background-color: #efffec;
+    }
+
+    .paths-menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 27px;
+    }
+
+    .paths-menu a {
+        text-decoration: none;
+        color: var(--cinza);
+        padding: 5px 15px;
+    }
+
+    .paths-menu a:hover {
+        color: var(--verde-claro);
+        transition: 0.3s ease;
+    }
+
+    .agendar-menu {
+        padding-top: 25px;
+        font-size: 27px;
+    }
+
+    .agendar-menu a {
+        text-decoration: none;
+        color: var(--cinza);
+    }
+
+    .agendar-menu a:hover {
+        color: var(--verde-claro);
+        transition: 0.3s ease;
+    }
+
+    .agendar-menu i {
+        color: var(--verde-claro);
+        padding-right: 5px;
+    }
+
+    nav {
+        padding: 0 2%;
+    }
+
+    .paths, .agendar {
+        display: none;
+    }
+
+    #especialidades, #procedimentos, #historia, #contato {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .paths a {
+        padding: 0 5px;
+    }
+
+    .especialidades-icones {
+        gap: 3rem;
+    }
+
+    .especialidade {
+        width: 120px;
+    }
+
+    .especialidade span {
+        font-size: 18px;
+    }
+
+    .especialidade-info {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .medico img {
+        height: 120px;
+    }
+
+    .medico h3 {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+
+    .medicos-head h2 {
+        font-size: 26px;
+        padding-right: 10px;
+    }
+
+    .procedimentos-container {
+        flex-direction: column;
+    }
+
+    .procedimentos-container ul {
+        padding: 5px 10px 10px;
+        max-width: 90%;
+    }
+
+    .historia-img {
+        width: 95%;
+    }
+
+    .historia-texto {
+        padding: 0 20px;
+    }
+
+    .contato-wrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contato-info, .maps {
+        width: 95%;
     }
 
     .info-socials {

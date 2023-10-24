@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         cirurgiaGeral: [
             {
-                nome: "Dr. Eduardo Alexandre Wernersbach Deps",
+                nome: "Dr. Eduardo Wernersbach Deps",
                 foto: "/images/dr_eduardo_cirurgiaogeral.png"
             },
             {
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         gastroenterologia: [
             {
-                nome: "Dr. Eduardo Alexandre Wernersbach Deps",
+                nome: "Dr. Eduardo Wernersbach Deps",
                 foto: "/images/dr_eduardo_cirurgiaogeral.png"
             }
         ],
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         proctologia: [
             {
-                nome: "Dr. Eduardo Alexandre Wernersbach Deps",
+                nome: "Dr. Eduardo Wernersbach Deps",
                 foto: "/images/dr_eduardo_cirurgiaogeral.png"
             }
         ],
@@ -210,13 +210,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     const medicoElement = document.createElement("div");
                     medicoElement.className = "medico";
                     medicoElement.innerHTML = `
-                        
+                        <img src="${medico.foto}" alt="${medico.nome}">
                         <div>
                             <h3>${medico.nome}</h3>
                             <span>CRM: ${medico.CRM}</span>
                             <span>REQ: ${medico.REQ}</span>
-                        </div>
-                        <img src="${medico.foto}" alt="${medico.nome}">
+                        </div>                        
                     `;
                     medicosInfo.appendChild(medicoElement);
                 });

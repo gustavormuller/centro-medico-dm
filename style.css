@@ -245,8 +245,8 @@ section {
     flex-direction: column;
     align-items: center;
     padding: 25px;
-    background-color: #d5ffca;
-    border-radius: 20px;
+    background-color: #e1fcda;
+    border-radius: 15px;
 }
 
 .medico h3 {
@@ -756,12 +756,21 @@ section {
     .especialidade-info {
         flex-direction: column;
         align-items: center;
-        gap: 0.5rem;
+        gap: 0.7rem;
         margin-top: 0;
+        padding-top: 0;
+    }
+
+    .medico {
+        padding: 5px 10px;
     }
 
     .medico img {
-        height: 120px;
+        height: 130px;
+    }
+
+    .medico div {
+        min-width: 230px;
     }
 
     .medico h3 {
@@ -772,8 +781,8 @@ section {
 
     .medicos a {
         margin-top: 0;
-        padding: 10px 15px;
-        font-size: 20px;
+        padding: 5px 13px;
+        font-size: 18px;
         text-align: center;
     }
 

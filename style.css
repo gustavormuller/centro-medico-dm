@@ -442,6 +442,27 @@ section {
     color: #9fe036;
 }
 
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 9px;
+    margin-left: 3px;
+}
+
+/* Responsividade */
 @media only screen and (max-width: 1610px) {
     nav {
         padding: 0 5%;
@@ -704,9 +725,16 @@ section {
         display: none;
     }
 
+    #inicio {
+        padding-bottom: 0;
+    }
+
     #especialidades, #procedimentos, #historia, #contato {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding: 1rem 5%;
+    }
+
+    .especialidades-title h1, .historia-title h1, .contato-title h1 {
+        font-size: 28px;
     }
 
     .paths a {
@@ -727,7 +755,9 @@ section {
 
     .especialidade-info {
         flex-direction: column;
+        align-items: center;
         gap: 0.5rem;
+        margin-top: 0;
     }
 
     .medico img {
@@ -737,6 +767,14 @@ section {
     .medico h3 {
         margin-bottom: 0;
         font-size: 18px;
+        text-overflow: clip;
+    }
+
+    .medicos a {
+        margin-top: 0;
+        padding: 10px 15px;
+        font-size: 20px;
+        text-align: center;
     }
 
     .medicos-head h2 {
@@ -761,6 +799,10 @@ section {
         padding: 0 20px;
     }
 
+    .historia-texto h2 {
+        font-size: 22px;
+    }
+
     .contato-wrap {
         flex-direction: column;
         align-items: center;
@@ -771,7 +813,66 @@ section {
         width: 95%;
     }
 
+    .contato-logo {
+        width: 250px;
+    }
+
+    .localizacao {
+        font-size: 18px;
+    }
+
+    .telefones span {
+        font-size: 18px;
+    }
+
+    .horario {
+        font-size: 18px;
+    }
+
     .info-socials {
         margin-bottom: 1rem;
+    }
+
+    .info-socials i {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .procedimentos-container {
+        padding: 1rem 0 0 0;
+    }
+
+    .procedimentos-container li {
+        font-size: 20px;
+    }
+
+    .historia-container {
+        padding-top: 10px;
+    }
+
+    .historia-texto {
+        padding: 0 10px;
+    }
+
+    .historia-texto h2 {
+        padding-top: 1rem;
+    }
+
+    .historia-texto p {
+        font-size: 16px;
+    }
+
+    .contato-info, .maps {
+        width: 99%;
+    }
+
+    .maps iframe {
+        height: 450px;
+    }
+
+    #contato {
+        padding-right: 2%;
+        padding-left: 2%;
     }
 }

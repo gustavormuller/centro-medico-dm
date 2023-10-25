@@ -540,6 +540,7 @@ section {
     .dropdown-button i {
         font-size: 35px;
         color: var(--verde-escuro);
+        padding-right: 20px;
     }
 
     .close-menu {

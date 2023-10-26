@@ -462,6 +462,11 @@ section {
     margin-left: 3px;
 }
 
+.paths-menu button {
+    background-color: #efffec;
+    text-align: start;
+}
+
 /* Responsividade */
 @media only screen and (max-width: 1610px) {
     nav {

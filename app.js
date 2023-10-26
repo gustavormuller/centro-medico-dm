@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const medicosBackground = document.querySelector('.medicos-background');
     const medicosContainer = document.querySelector('.medicos');
     const close = document.querySelector('.close');
+    let animatedSections = document.querySelectorAll('.animated-section');
     const medicosData = {
         alergiaImunologia: [
             {
@@ -193,13 +194,25 @@ document.addEventListener("DOMContentLoaded", function () {
         ]
     };
 
+    window.onscroll = () => {
+        animatedSections.forEach(sec => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop - 800;
+            let height = sec.offsetHeight;
+
+            if (top >= offset && top < offset + height) {
+                sec.style.animation = "transitionIn 0.7s";
+            }
+        })
+    }
+
     especialidades.forEach((especialidade) => {
         especialidade.addEventListener("click", async function () {
             const especialidadeId = this.dataset.especialidade;
             const especialidadeData = medicosData[especialidadeId];
 
             medicosInfo.innerHTML = "";
-            medicosBackground.style.display = "block";
+            medicosBackground.style.display = "flex";
             document.body.style.overflowY = "hidden";
             medicosContainer.style.display = "flex";
             document.querySelector('header').style.position = "inherit";

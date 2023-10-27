@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 foto: "/images/dra_katia_faria_alves.png"
             },
             {
-                nome: "Dra. Magda Lúcia Machado Pimentel",
+                nome: "Dra. Magda Lúcia Pimentel",
                 foto: "/images/dra_magda_pediatra.png"
             }
         ],
@@ -160,9 +160,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 foto: "/images/fernanda_psicologa.png"
             },
             {
+                nome: "Patrícia Abul Kamel ",
+                foto: "/images/psicologia.webp"
+            },
+            {
                 nome: "Solange Lucena Mendes",
                 foto: "/images/lucena_mendes_psicologa.png"
-            }            
+            }
         ],
         psiquiatria: [
             {
@@ -170,20 +174,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 foto: "/images/dr_ricardo_herkenhoff_psiquiatra.jpg"
             }
         ],
-        radiologia: [
-            {
-                nome: "Dr. Plinio Zanello",
-                foto: "/images/dr_plinio_zanello_radiologista.png"
-            },
-            {
-                nome: "Dr. Rubens Littig",
-                foto: "/images/rubens_littig_ultrassonografia.png"
-            }
-        ],
         reumatologia: [
             {
                 nome: "Dra. Gabriela Andrade Pena Cruz",
                 foto: "/images/dra_gabriela_reumatologista.png"
+            }
+        ],
+        ultrassom: [
+            {
+                nome: "Dr. Rubens Littig",
+                foto: "/images/rubens_littig_ultrassonografia.png"
             }
         ],
         urologia: [
@@ -226,8 +226,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         <img src="${medico.foto}" alt="${medico.nome}">
                         <div>
                             <h3>${medico.nome}</h3>
-                            <!-- <span>CRM: ${medico.CRM}</span> -->
-                            <!-- <span>REQ: ${medico.REQ}</span> -->
+                            <span>CRM: ${medico.CRM}</span>
+                            <span>REQ: ${medico.REQ}</span>
                         </div>                        
                     `;
                     medicosInfo.appendChild(medicoElement);

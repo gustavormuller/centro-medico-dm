@@ -798,6 +798,7 @@ section {
         gap: 0.7rem;
         margin-top: 0;
         padding-top: 0;
+        max-width: 85vw;
     }
 
     .medico {
@@ -887,6 +888,37 @@ section {
 }
 
 @media only screen and (max-width: 500px) {
+    .especialidade-info {
+        max-height: 63vh;
+        max-width: 80vw;
+    }
+
+    .medico {
+        flex-direction: column;
+    }
+
+    .medico img {
+        height: 170px;
+    }
+
+    .medico div {
+        margin-top: 5px;    
+    }
+
+    .medico h3 {
+        text-align: start;
+        font-size: 17px;
+    }
+
+    .medico span {
+        text-align: start;
+        font-size: 16px;
+    }
+
+    .medicos a {
+        font-size: 16px;
+    }
+
     .procedimentos-container {
         padding: 1rem 0 0 0;
     }

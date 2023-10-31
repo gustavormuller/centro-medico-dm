@@ -310,16 +310,16 @@ section {
 
 .historia-img {
     border: 2px solid var(--verde-claro);
-    border-radius: 20px;
+    border-radius: 12px;
     -moz-box-shadow: 0 0 3px var(--verde-escuro);
     -webkit-box-shadow: 0 0 3px var(--verde-escuro);
     box-shadow: 0 0 3px var(--verde-escuro);
-    width: 70%;
+    width: 80%;
 }
 
 .historia-img img {
-    border-radius: 18px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .historia-texto {
